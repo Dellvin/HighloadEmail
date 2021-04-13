@@ -2,23 +2,27 @@ DataBase Models
 
 type Letter struct {
 	Id            uint64
-	Sender        string
-	Receiver      string
+	Sender        uint64
+	Receiver      uint64
 	Theme         string
 	Text          string
 	DateTime      int64
 	IsWatched     bool
-	DirectoryRecv uint64
-	DirectorySend uint64
-	Spam          bool
-	Box           bool
+	DirID         uint64
+	ContentPath   string
+}
+
+type LetterToReceiver{
+	LetterId     uint64
+	ReceiverId   uint64
 }
 
 type Folder struct {
-	Id   uint64
-	Uid  uint64
-	Type string
-	Name string
+	Id         uint64
+	ParentId   uint64
+	Uid        uint64
+	Type 	   string
+	Name       string
 }
 
 type User struct {
