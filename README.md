@@ -41,3 +41,19 @@
 ## Логическа схема базы данных ##
 
 ![image](https://user-images.githubusercontent.com/47527934/115367169-9f20e480-a1ce-11eb-90a4-75c8aab0c4ad.png)
+
+## Физическая схема базы данных ##
+
+id     | name          | surname      | birthday        | gender   | accountname | password    | phone
+------ | ------------- | ------------ | --------------- | -------- | ----------- | ----------- | ------
+bigint | varchar(20)   | varchar(20)  | timestamp:date  | boolean  | varchar(30) | varchar(32) | bigint
+
+Итог: 126 байт на одного пользователя
+
+id     | sender  | receiver        | theme        | text              | date           | isRead  | folderId        | answerOn  | fileId          |
+------ | ------- | --------------- | ------------ | ----------------- | -------------- | ------- | --------------- | --------- | --------------- |
+bigint | bigint  | bigint array[5] | varchar(100) | varchar(11000000) | timestamp:date | boolean | bigint array[5] | bigint    | bigint array[5] |
+                        
+
+Итог: 126 байт на одного пользователя
+
