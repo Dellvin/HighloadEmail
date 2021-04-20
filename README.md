@@ -39,7 +39,7 @@
 
 ## Логическа схема базы данных ##
 
-![image](https://user-images.githubusercontent.com/47527934/115367169-9f20e480-a1ce-11eb-90a4-75c8aab0c4ad.png)
+![image](https://user-images.githubusercontent.com/47527934/115372266-620b2100-a1d3-11eb-8054-ef3b80d34aeb.png)
 
 ## Физическая схема базы данных ##
 
