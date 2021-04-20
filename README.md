@@ -44,16 +44,36 @@
 
 ## Физическая схема базы данных ##
 
+### User ###
+
 id     | name          | surname      | birthday        | gender   | accountname | password    | phone
 ------ | ------------- | ------------ | --------------- | -------- | ----------- | ----------- | ------
 bigint | varchar(20)   | varchar(20)  | timestamp:date  | boolean  | varchar(30) | varchar(32) | bigint
 
 Итог: 126 байт на одного пользователя
 
+### Letter ###
+
 id     | sender  | receiver        | theme        | text              | date           | isRead  | folderId        | answerOn  | fileId          |
 ------ | ------- | --------------- | ------------ | ----------------- | -------------- | ------- | --------------- | --------- | --------------- |
 bigint | bigint  | bigint array[5] | varchar(100) | varchar(11000000) | timestamp:date | boolean | bigint array[5] | bigint    | bigint array[5] |
                         
 
-Итог: 126 байт на одного пользователя
+Итог: 11000252 байт на одного пользователя
+
+### File ###
+
+id     | name          | extension  | size | path
+------ | ------------- | ---------- | ---- | -----------
+bigint | varchar(20)   | varchar(8) | int  | varchar(20)
+
+Итог: 60 байт на одного пользователя
+
+### Folder ###
+
+id     | name        | letterCount | userId
+------ | ----------- | ----------- | -------
+bigint | varchar(20) | int         | bigint
+
+Итог: 40 байт на одного пользователя
 
