@@ -185,7 +185,8 @@ Golang UK Conference 2017 by Arne Claus
 
 Физическая схема БД
 
-![image](https://user-images.githubusercontent.com/47527934/116065827-156e8c80-a690-11eb-9a86-bc07767bcc74.png)
+<img width="616" alt="Снимок экрана 2021-05-02 в 17 53 12" src="https://user-images.githubusercontent.com/47527934/116817498-5292bd00-ab6f-11eb-9439-bd19dd46d394.png">
+
 
 
 
