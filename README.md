@@ -104,6 +104,7 @@
 ![image](https://user-images.githubusercontent.com/47527934/115372266-620b2100-a1d3-11eb-8054-ef3b80d34aeb.png)
 
 ## Физическая схема базы данных ##
+![physical](https://user-images.githubusercontent.com/47527934/118355947-890f0580-b57b-11eb-9ab9-68e52f3fd20a.png)
 
 ### User ###
 
