@@ -104,7 +104,6 @@
 ![image](https://user-images.githubusercontent.com/47527934/115372266-620b2100-a1d3-11eb-8054-ef3b80d34aeb.png)
 
 ## Физическая схема базы данных ##
-![physical](https://user-images.githubusercontent.com/47527934/118355947-890f0580-b57b-11eb-9ab9-68e52f3fd20a.png)
 
 ### User ###
 
@@ -182,7 +181,7 @@ Golang UK Conference 2017 by Arne Claus
 
 Физическая схема БД
 
-<img width="616" alt="Снимок экрана 2021-05-02 в 17 53 12" src="https://user-images.githubusercontent.com/47527934/116817498-5292bd00-ab6f-11eb-9439-bd19dd46d394.png">
+![physical](https://user-images.githubusercontent.com/47527934/118355947-890f0580-b57b-11eb-9ab9-68e52f3fd20a.png)
 
 
 
